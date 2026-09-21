@@ -8,7 +8,7 @@ from pydantic import TypeAdapter, ValidationError
 
 logger = logging.getLogger(__name__)
 
-DEFAULT_API_URL = "https://llm-prices.llm-prices.workers.dev/api/inspect-costs"
+DEFAULT_API_URL = "https://llm-prices.generality.org/api/inspect-costs"
 adapter = TypeAdapter(dict[str, ModelCost])
 
 
